@@ -50,6 +50,18 @@ body {
 
 @media only screen and (min-width: 425px) {
     .card {
-        width: 60%;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        width: 20%;
     }
 }
